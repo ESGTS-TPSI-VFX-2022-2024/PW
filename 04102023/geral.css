@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+
+/* Selector utilizando ID */
+#tituloVermelho{
+    color: red;
+}
+
+.conteudoDiferente{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#666666;
+}
+
+#noticia3{
+    text-transform: uppercase;
+}
+
+#zona3 #noticia3{
+    color: blueviolet;
+}
+
+.corVerde, #noticia3{
+    color: green;
+}
+
+#zona1 .sublinhado{
+    text-decoration: underline;
+}
+    
