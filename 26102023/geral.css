@@ -1,0 +1,126 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 15% 18% 15% 18% 15% 19%;
+}
+
+#topBar{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: black;
+    height: 50px;
+}
+
+#headerLogo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#headerMenu{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+#headerMenu ul{
+    display: inline;
+    padding-left: 0px;
+}
+
+#headerMenu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px 0px 0px;
+}
+
+#headerMenu ul li a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#headerMenu ul li a:hover{
+    color: black;
+}
+
+#banner{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+#banner img{
+    width: 100%;
+    display: block;
+}
+
+#sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#sidebar ul{
+    padding: 0px;
+    margin: 0px;    
+}
+
+#sidebar ul li{
+    list-style-type: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#sidebar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#content{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    background-color: white;
+    padding: 40px;
+}
+
+#content p img{
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+}
+
+.paddingFooter{
+    padding: 0px 50px;
+}
+
+#footerLeft{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: black;
+    color: white;
+}
+
+#footerLeft a{
+    color: white;
+}
+
+#footerCenter{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: black;
+    color: white;
+}
+
+#footerRight{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    background-color: black;
+    color: white;
+}
