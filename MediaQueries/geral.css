@@ -1,0 +1,131 @@
+body, html{
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.zona1{
+    background-color: red;
+}
+
+.zona2{
+    background-color: orange;
+}
+
+.zona3{
+    background-color: white;
+}
+
+.zona4{
+    background-color: green;
+}
+
+.zona5{
+    background-color: blue;
+}
+
+
+/* Estilos aplicados em resoluções menores ou iguais a 768px largura */
+/* Telemóveis */
+@media screen and (max-width: 768px){
+
+    .zona1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .zona2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: white;
+    }
+
+    .zona3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: orange;
+    }
+
+    .zona4{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .zona5{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
+
+
+/* Estilos aplicados em resoluções maiores do que 769px */
+/* Tablets */
+@media screen and (min-width: 769px){
+
+    .zona1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .zona2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: white;
+    }
+
+    .zona3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: orange;
+    }
+
+    .zona4{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .zona5{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
+
+
+/* Estilos aplicados em resoluções maiores do que 992px */
+/* Computadores */
+@media screen and (min-width: 992px){
+
+    .zona1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .zona2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .zona3{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .zona4{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .zona5{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}

@@ -1,0 +1,33 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+#item1{
+    background-color: blue;
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item2{
+    background-color: red;
+    height: 200px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item3{
+    background-color: green;
+    height: 200px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#item4{
+    background-color: yellow;
+    height: 200px;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}

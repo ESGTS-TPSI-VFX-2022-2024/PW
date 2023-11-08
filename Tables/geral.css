@@ -1,0 +1,30 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 1px solid #CCCCCC;    
+}
+
+thead, tfoot{
+    background-color: black;
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+td, th{
+    padding: 5px;
+}
+
+/*Pares*/
+tbody tr:nth-child(even){
+    background-color: #EEEEEE;
+}
+
+/*Impares*/
+tbody tr:nth-child(odd){
+    background-color: #FFFFFF;
+}
